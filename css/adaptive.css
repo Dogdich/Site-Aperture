@@ -192,6 +192,13 @@ justify-content: flex-end;
 }
 
 @media (max-width: 500px) {
+    .footer__subscribe{
+        text-align: center;
+    }
+    .footer__subscribe{
+        flex-direction: column;
+        gap: 20px;
+    }
     .clients__main__text {
         text-align: center;
     }
@@ -317,10 +324,7 @@ align-items: center;
 .tools__main__content{
     text-align: center;
 }
-.footer__subscribe{
-    flex-direction: column;
-    gap: 20px;
-}
+
 .clients__main__text{
     text-align: center;
 }
@@ -335,9 +339,7 @@ align-items: center;
     flex-direction: column;
     text-align: center;
 }
-.footer__subscribe{
-    text-align: center;
-}
+
 .footer__link{
     gap: 0px;
 }
