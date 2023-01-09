@@ -140,7 +140,7 @@
     }
     .tools__main__content{
         width: 100vw;
-        background: url('/img/tools.png') center center no-repeat;
+        background: url('../img/tools.png') center center no-repeat;
         background-size: cover;
     }
     .clients__main__images{  display: grid;
@@ -192,6 +192,9 @@ justify-content: flex-end;
 }
 
 @media (max-width: 500px) {
+    .clients__main__text {
+        text-align: center;
+    }
     .images-main__item_3,
     .images-main__item_1{
         padding-top: 300px;
