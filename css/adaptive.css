@@ -193,8 +193,8 @@ justify-content: flex-end;
 
 @media (max-width: 500px) {
     .footer__subscribe{
-        text-align: center;
-    }
+    text-align: center;
+}
     .footer__subscribe{
         flex-direction: column;
         gap: 20px;
